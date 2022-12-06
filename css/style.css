@@ -22,3 +22,10 @@ header{
 .center{
     vertical-align: middle;
 }
+
+.contenuto{
+    margin: 40px auto;
+    background-color: white;
+    max-width: 800px;  
+    padding: 20px;
+}
