@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #cbe6f3;
+    background-color: #e3f4fd;
 }
 
 header{
@@ -26,7 +26,8 @@ header{
 .container1{
     margin: 40px auto 0px auto; 
     background-color: white;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     max-width: 800px;  
     padding: 20px;
 }
@@ -34,7 +35,8 @@ header{
 .container2{
     margin: 2px auto; 
     background-color: white;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     max-width: 800px;  
     padding: 20px;
 }
@@ -61,7 +63,7 @@ li, ul{
 }
 
 li{
-    margin: 8px 8px 20px 8px;
+    margin: 8px 8px 28px 8px;
 }
 
 .li-title{
@@ -84,13 +86,29 @@ li{
 
 .li-check::before{
     content: ' \2714';
-    font-size: 10px;
-    margin-right: 5px;
+    font-size: 12px;
+    margin-right: 10px;
     border: 1px solid rgb(0, 124, 0);
     border-radius: 50%;
-    padding: 3px;
+    padding: 6px;
     color: rgb(0, 124, 0);
 }
+
+.li-nocheck{
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.li-nocheck::before{
+    content: ' \2716';
+    font-size: 12px;
+    margin-right: 10px;
+    border: 1px solid rgb(184, 24, 24);
+    border-radius: 50%;
+    padding: 6px;
+    color: rgb(184, 24, 24);
+}
+
 
 .tag{
     border-radius: 10px;
