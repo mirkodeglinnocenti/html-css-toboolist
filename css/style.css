@@ -23,7 +23,7 @@ header{
     vertical-align: middle;
 }
 
-.contenuto{
+.container{
     margin: 40px auto;
     background-color: white;
     border-radius: 5px;
@@ -48,3 +48,34 @@ header{
     background-color: white;
     border: 1px solid rgb(207, 207, 207);
 }
+
+li, ul{
+    list-style-type: none;
+}
+
+.li-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+    margin-bottom: 20px;
+}
+
+.li-title::before{
+    content: ' \25BE';
+}
+
+.li-check{
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.li-check::before{
+    content: ' \2714';
+    margin-right: 5px;
+    border: 1px solid rgb(0, 124, 0);
+    border-radius: 50%;
+    padding: 3px;
+    color: rgb(0, 124, 0);
+}
+
+    
